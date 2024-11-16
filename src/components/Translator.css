@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.translator {
+    max-width: 600px;
+    margin: 50px auto;
+    border: dashed 5px #fff720;
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+
+
+textarea {
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    border: 3px solid #a3a3a3;
+    border-radius: 4px;
+    resize: none;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.label-container {
+    display: flex;
+    margin-left: 85px;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px; 
+}
+
+label {
+    color: #333;
+    padding: 0 15px; 
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+select {
+    padding: 10px;
+
+    border: dashed 3px #fff720;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 10px;
+    background-color: #fff720;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #c7c977;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #333;
+}
+
+p {
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+    background-color: #fffca9;
+}
+
+@media (max-width: 768px) {
+
+    .translator {
+        width: 85%;
+        padding: 10px; /* Уменьшаем отступы */
+    }
+    
+
+    h1 {
+        font-size: 24px; /* Уменьшаем размер заголовка */
+    }
+
+    label {
+        padding: 10px;
+        font-size: 20px; /* Уменьшаем размер шрифта для label */
+    }
+
+    textarea {
+        font-size: 14px; /* Уменьшаем размер шрифта для textarea */
+    }
+
+    select {
+        font-size: 14px; /* Уменьшаем размер шрифта для select */
+    }
+
+    button {
+        font-size: 24px; /* Уменьшаем размер шрифта для кнопки */
+        padding: 10px; /* Уменьшаем отступы */
+    }
+
+    p {
+        font-size: 20px; /* Уменьшаем размер шрифта для текста */
+    }
+}
